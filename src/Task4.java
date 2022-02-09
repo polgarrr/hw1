@@ -1,6 +1,7 @@
 import java.util.Arrays;
 
 public class Task4 {
+    // тут я думаю лучше юзать твой предыдуший createRandomArray с параметром n -- размером массива
     public static double[] createRandomArray() {
         double[] randomArray = new double[9]; // создала массив с рандомными значениями
         for (int i = 0; i < randomArray.length; i++) {

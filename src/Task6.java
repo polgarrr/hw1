@@ -3,6 +3,7 @@ import java.util.Arrays;
 public class Task6 {
     public static double[][] matrixAdd(double[][] matrix1,
                                        double[][] matrix2) {
+        // resultMatrix
         double[][] matrix3 = new double[matrix1.length][matrix2.length]; // создаю новую матрицу, задаю длину исходя из двух других
         for (int i = 0; i < matrix3.length; i++)
             for (int j = 0; j < matrix3.length; j++)

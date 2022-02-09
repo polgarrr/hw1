@@ -1,8 +1,7 @@
 import java.util.Arrays;
 
 public class Task7 {
-    public static double[][] matrixMultiply(double[][]
-                                                    matrix1, double[][] matrix2) {
+    public static double[][] matrixMultiply(double[][] matrix1, double[][] matrix2) {
         double[][] matrix3 = new double[matrix1.length][matrix2[0].length]; // создаю новую матрицу, задаю длину исходя из двух других, как это свойственно для результата перемножения двух матриц (строка -- столбец)
         for (int i = 0; i < matrix3[0].length; i++)
             for (int j = 0; j < matrix3.length; j++)

@@ -3,6 +3,7 @@ import java.util.Arrays;
 public class Task5 {
     public static int[] removeElement(int[] array, int elem) {
         int newArrayLength = array.length - getElemAmount(array, elem); // создаю переменную для обозначения длины нового массива
+        // его логичнее назвать resultArr
         int[] arrNew = new int[newArrayLength]; // объявляю новый массив
 
         int currentIndex = 0;
